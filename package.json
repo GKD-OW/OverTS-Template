@@ -1,0 +1,13 @@
+{
+  "name": "overts-template",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "ShuangYa",
+  "license": "MIT",
+  "dependencies": {
+    "overts": "^1.0.1"
+  },
+  "scripts": {
+    "build": "overts build"
+  }
+}

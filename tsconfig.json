@@ -1,0 +1,29 @@
+{
+  "compilerOptions": {
+    "experimentalDecorators": true,
+    "allowSyntheticDefaultImports": true,
+    "lib": [
+      "dom",
+      "es2017"
+    ],
+    "rootDir": "./src",
+    "outDir": "./lib",
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "noEmit": false,
+    "preserveConstEnums": true,
+    "removeComments": false,
+    "skipLibCheck": true,
+    "sourceMap": false,
+    "strict": true,
+    "target": "es5",
+    "declaration": true
+  },
+  "paths": {
+    "src/*":[
+      "./src/*"
+    ]
+  },
+  "exclude": ["./lib", "./image"],
+  "include": ["./src"]
+}
